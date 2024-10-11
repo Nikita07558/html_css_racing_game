@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate Us</title>
+    <style>
+          body{
+            margin:10px;
+            padding:8px;
+            background-image: url('https://www.oswego.edu/cts/sites/www.oswego.edu.cts/files/styles/panopoly_image_original/public/oswego_sunset.jpg?itok=3pu5u00T');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+          }
+        .rat{
+            text-align: center;
+            margin:10px;
+            padding: 10px;
+            border:4px solid blue;
+            border-radius: 55%;
+           
+        }
+        .rate{
+            text-align: center;
+             margin:6px;
+             margin-left: 350px;
+             margin-right: 350px;
+             padding: 4px;
+             border:8px solid rgb(252, 153, 5);
+             border-radius: 5%;
+             color: yellow;
+             background-color: rgba(0, 0, 255, 0.187);
+             font-size: 24px;
+
+        }
+        input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+    input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #ffa500;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+        h1{
+            text-align: center;
+            font-size: 50px;
+        }
+        .hm{
+          position: absolute;
+          top:20px;
+          right:8px;
+         padding: 14px;
+        background-color: rgb(255, 0, 204);
+        border:2px solid darkblue;
+        border-radius: 5%;
+
+        }
+
+</style>
+</head>
+<body>
+     <h1>RATE US</h1>
+     <div class="rat"> <br><br>
+       THANKS for joining us! . <br><br> We hope you are having an amazing time playing this game . <br><br>
+       Please give RATING to let us know about your experience . <br><br>Your Feedback gives us idea about future Updations. <br><br>
+     </div>
+     <div  class="rate">
+        RATING <br><br>
+        1 <input type="radio" name="1" id="1g"> <br>
+        2 <input type="radio" name="2" id="2g"> <br>
+        3<input type="radio" name="3" id="3g"> <br>
+        4<input type="radio" name="4" id="4g"> <br>
+        5<input type="radio" name="5" id="5g"> <br>
+
+
+     </div>
+     <button class="hm" > <a style="color: #0629f1;font-size: 20px;" href="http://127.0.0.1:5502/gameinterface.html"> <b>HOME</b> </a></button> 
+    
+</body>
+</html>

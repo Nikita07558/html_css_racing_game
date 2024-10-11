@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLAY</title>
+    <style>
+    
+     nav{
+        color:blanchedalmond;
+        font-size: 25px;
+        background-color: black;
+        background-attachment: fixed;
+        padding: 20px;
+        margin:20px;
+    }
+    .log{
+        color:aqua;
+        background-color: rgb(104, 40, 0);
+        font-size: 45px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 2%;
+    }
+    .p1{
+        position: relative;
+        top:100px;
+        left:750px;
+        font-size: 40px;
+        
+    }
+    @import url("https://fonts.googleapis.com/css?family=Coiny");
+
+body {
+    
+   margin: 0 auto;
+   padding: 10px;
+   background: #000428; /* fallback for old browsers */
+   background: -webkit-linear-gradient(to left, #000428 , #004e92); /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to left, #000428 , #004e92); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+}
+
+.p1 {
+  color: #EEE;
+  padding-top: 30px;
+  font-family: 'Coiny', cursive;
+
+  font-size: 70px;
+-webkit-animation: bounce .4s ease infinite alternate;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+      text-shadow:
+                  0 5px 0 #ccc,
+                  0 2px 3px rgba(0, 0, 0, 1);  
+  }
+  100% {
+    transform:translateY(-20px);
+    text-shadow:  0 50px 0 #black,
+                  0 0px 20px rgba(0, 0, 0, .8);
+  }
+}
+.img{
+    position: absolute;
+    top: 220px;
+    left:20px;
+    border: 1px solid #004e92;
+    border-radius: 50%;
+}
+
+
+    </style>
+</head>
+<body>
+    <nav> <table style="width: 100%;"> <th style="width:25%;" > <a style="color:blanchedalmond; " href="http://127.0.0.1:5502/gameinterface.html">HOME  </a></th> <th style="width:25%"> <a style="color:blanchedalmond; " href="http://127.0.0.1:5502/levels.html">LEVELS </a></th> <th style="width:25%"> <a style="color:blanchedalmond; "  href="http://127.0.0.1:5502/settings.html">SETTINGS</a></th> <th style="width:25%"><a style="color:blanchedalmond; "  href="http://127.0.0.1:5502/rateus.html">RATE-US</th></a> </table>  </nav>
+    <div class="log">
+        LOGGED IN  &nbsp; &#10024;
+    </div>
+    <div class="p1">
+        &#128073 PLAY 
+    </div>
+    <div class="p2">
+        <div class="img"> <img src="https://th.bing.com/th/id/R.ded93670392213f542a6f8f5e4dbf49f?rik=XbVkTSueA%2flYTA&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fpng-hd-images-of-cars-cars-png-hd-915.png&ehk=tSZQy5fJFpkAo4rMRyVWbWFK5yAsHS8TrO1RwCUHGhw%3d&risl=&pid=ImgRaw&r=0" width="550px" height="350px">
+        </div>
+      
+    </div>
+</body>
+</html>

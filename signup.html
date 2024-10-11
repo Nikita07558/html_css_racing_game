@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sign UP</title>
+<style>
+    body{
+        background-image:url(https://4.bp.blogspot.com/-G-B4mwxB0uM/WlTkS8yjecI/AAAAAAAAB6A/lgCWkatziu0SVWJgRhUzx2uthFv4uns0ACLcBGAs/s1600/804902_1482740170.jpeg);
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size: 1300px;
+        
+    }
+    .hm{
+        position: absolute;
+        top:100px;
+        left:10px;
+        font-size: 25px;
+        border:2 px solid black;
+        padding:10px;
+        background-color: rgba(2, 2, 93, 0.42);
+    }
+</style>
+
+</head>
+<body style="background-color: paleturquoise;">
+    <script>
+   function myfun(){
+
+    var a= document.getElementById("name").value;
+    
+    if(a==""){
+        alert("Please Enter Name");
+        return false;
+    }
+    var b= document.getElementById("dob"),value;
+
+    if(b=""){
+    alert("**Please enter DOB");
+        return false;
+    }
+    var c= document.getElementById("email").value;
+    
+    if(c==""){
+        alert("**Please fill Email ID");
+        return false;
+    }
+    if(c.length>25){
+    
+        alert("**Email ID is too long");
+        return false;
+    }
+     var d= document.getElementById("password").value;
+    
+    if(d.length==""){
+    
+        alert("**Please fill password");
+        return false;
+    }
+    if(d.length<8){
+        
+        alert("**Password must have more than 8 characters");
+        return false;
+    }
+    if(d.length>25){
+        
+        alert("**Password is too long ,password length must be between 8 to 25 characters");
+        return false;
+    }
+    var e= document.getElementById("cpassword").value;
+    
+    if(e==""){
+        
+        alert("**Please confirm your password");
+        return false;
+    }
+    if(e!=d){
+      
+        alert("**Password and Confirm Password must be same");
+        return false;
+    }
+   }
+    </script>
+
+<h3 style="text-align:center; font-size:40px;  color:rgb(11, 5, 71);border: solid blue "> SIGN UP DETAILS  </h3>
+
+<p class="form-box">
+<b>
+    <form action="http://127.0.0.1:5502/succesfulsign.html" onsubmit="return myfun()"   style="text-align: right ; color:black">
+        <div>
+<label for="name">Enter Name *:</label>
+ <input type="text" id="name" name="fname">  <br><br></div>
+
+<div> <label for="num">Enter DOB *</label>
+<input type="date" id="dob" name="agenum" required> <br><br>  </div>
+
+Gender: *<br>
+Female<input type="radio" id="f" name="fgen" value="Female" >
+Male<input type="radio" id="m" name="fgen" value="Male" ><br><br>
+
+<div>
+<label for="em">Enter Email ID: *</label>
+<input type="email" id="email" name="femail" placeholder="eg-abc@gmail.com" >  </div><br><br>
+
+<div>
+<label for="passwor">Enter password: *</label>
+<input type="password" id="password" name="fpassword" >  </div><br><br>
+
+<div>
+    <label for="cpasswor">Confirm password: *</label>
+    <input type="password" id="cpassword" name="fcpassword" >  </div><br><br>
+ 
+
+<label for="check">Are you a Beginner? *  </label>
+<input type="checkbox" id="check" name ="ch"><br>
+
+
+ <pre>
+Click on Reset to change data : <input type="reset" name="rese">
+</pre>
+<p style="font-size:smaller;color: rgb(3, 3, 63);text-decoration: underline;">
+    Do you agree to terms and conditions? *<input type="checkbox" required >
+</p>
+<br>
+<input style="font-size: large;color: rgb(239, 247, 6); background-color: rgb(4, 4, 58);" type="submit" value="Submit">
+
+</form>
+</b>
+</p>
+<marquee style="font-style: italic;font-size: smaller;font-weight:30px;color:rgb(249, 250, 249) ">  STREET RACING 2.0 </marquee>
+<div class="hm"> <a style="color: rgb(255, 255, 0);" href="http://127.0.0.1:5502/gameinterface.html">&#127968  HOME </a></div>
+
+

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEVELS</title>
+    <style>
+        body{
+            background-image:url(https://th.bing.com/th/id/R.29ada7deb2361c64df35ba2d9439ef82?rik=jsmn9oBX4VBf1A&riu=http%3a%2f%2filiketowastemytime.com%2fsites%2fdefault%2ffiles%2fwarm-hues-hd-wallpaper.jpg&ehk=PD%2fLrXc1kKumf8wzrNZgpL3PtzIrcAYfy7FOZSWtUDg%3d&risl=&pid=ImgRaw&r=0)
+        }
+        h1{
+            text-align: center;
+            color: darkgreen;
+            font-size: 45px;
+    
+        }
+
+        #t1 th{
+
+           border: 1px solid rgb(199, 97, 8);
+           background-color:rgba(255, 18, 18, 0.265)
+}
+        #t2 th{
+            color: rgb(6, 6, 90);
+        }
+        input[type="button"]{
+            color:rgb(255, 208, 0);
+            background-color: brown;
+            font-size: 15px;
+            padding: 2%;
+        }
+        
+        .img1:hover{
+            color:#111;
+            background: greenyellow;
+            box-shadow: 0 0 0 5px rgba(172, 255, 47, 0.587);
+
+        }
+    </style>
+</head>
+<body> 
+    <h1>LEVELS</h1>
+
+    <table style="width:100%" id="t1">
+        <tr style="height:125px">
+    <th>
+        <span class="img1"> CITY STREET <br> 
+        <img src="https://th.bing.com/th/id/OIP.QfRrBC42fv0DOzxkY-eHPgHaHa?pid=ImgDet&w=800&h=800&rs=1" alt="city street pic" width="150px" height="90 px"> </span>
+        <br>
+        </th>
+        <th>
+            <span class="img1"> OFF ROAD <br>
+        <img src="https://th.bing.com/th/id/OIP._lJx2hkkaij4IIBfSkRCOwHaEK?pid=ImgDet&rs=1" alt="off road" width="150px"> </span>
+        <br>
+    </th>
+    <th>
+        <span class="img1">RACING LEAGUE <br> 
+        <img src="https://th.bing.com/th/id/OIP.Gk5BNW_dcBhWcU3gTFUvgAHaEx?pid=ImgDet&rs=1" alt="racing" width="150 px"> </span>
+    </th> 
+</tr>   
+<tr style="height:125px">
+    <th>
+        <span class="img1">URBAN RIVALS<br>
+        <img src="https://th.bing.com/th/id/OIP.NvPHBouUboZDJSNI_PaTrQAAAA?pid=ImgDet&rs=1" alt="urban" width="150px"> </span>
+        <br>
+        </th>
+        <th>
+            <span class="img1">CHAMPIONSHIP <br> 
+        <img src="https://th.bing.com/th/id/OIP.qslkjYt_WQsNX8r7RSg-oAHaDt?pid=ImgDet&rs=1" alt="champion" width="150px"> </span>
+        <br>
+        </th>
+        <th>
+            <span class="img1"> CLASSIC MASTERS <br> 
+        <img src="https://th.bing.com/th/id/R.4098e85f7dad878b8eee802eaf368d7f?rik=zC5vRRfCnTDrIg&riu=http%3a%2f%2fwww.isrtv.com%2fwp-content%2fuploads%2f2014%2f01%2f150114-next-car-game-01.jpg&ehk=5He7qAV5lv9wl5TwZVb44ZddzlinLf9XptUwMNlUmyU%3d&risl=&pid=ImgRaw&r=0" alt="class" width="150px"> </span>
+    </th>
+</tr>
+    </table> <br><br>
+    <table width="100%" id="t2">
+        <colgroup>
+            <col span="2" style="background-color: rgb(199, 97, 8) ";>
+           
+        </colgroup>
+        <tr style="height:60px;font-size: x-large;"> <th colspan="2">-------------LEVEL vs POINT----------</th> <th rowspan="1"> <span style="color:rgb(9, 9, 83)"> Select LEVEL </span>
+            <select name="lev" id="level">
+                <option value="CS">CITY STREET</option>
+                <option value="or">OFF ROAD</option>
+                <option value="rl">RACING LEAGUE</option>
+                <option value="ur">URBAN RIVALS</option>
+                <option value="c">CHAMPIONSHIP</option>
+                <option value="cm">CLASSIC MASTERS</option>
+            </select><br> </th></tr>
+        <tr>
+            <th style="width: 30%;"> CITY STREET</th>
+            <th style="width: 30%;"> +500</th>
+            <th rowspan="5">Return to HOME PAGE <br> <b style="text-align: centre;"> <a href="http://127.0.0.1:5502/gameinterface.html"> <input type="button" value="HOME"  ></b> </a> </th>
+        </tr>
+        <tr>
+            <th > OFF ROAD</th>
+            
+            <th > +1000</th>
+        </tr>
+        <tr>
+            <th > RACING LEAGUE </th>
+            
+            <th>+2000</th>
+            
+        </tr>
+        <tr>
+            <th > URBAN RIVALS </th>
+         
+            <th >+3000</th>
+        </tr>
+        <tr>
+            <th> CHAMPIONSHIP </th>
+            
+            <th>+4000</th>
+        </tr>
+        <tr>
+            <th > CLASSIC MASTERS </th>
+            <th>+5000</th>
+        </tr>
+
+    </table>
+
+</body>
+</html>
